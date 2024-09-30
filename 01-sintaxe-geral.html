@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sintaxe Geral do JS</title>
+</head>
+
+<body>
+    <h1>Começando com JavaScript</h1>
+    <hr>
+
+    <script>
+
+        // comando de saida (útil pra testes básicos) 
+        console.log("Hello World!")
+
+        // manipulação de dados na MEMÓRIA 
+
+        // criação de espaço na menória RAM do computador atráves de variavel e/ou CONSTANTES. 
+
+        // Váriavel: declaradas com palavra-chave let Constante: declaradas com a palavra-chave const.
+
+        // Declaração 
+
+
+        let ano = 2024;
+        const aluno = "Ygor";
+
+        // Saída (acessando/exibindo/usando no console)
+        console.log(ano);
+        console.log(aluno);
+
+        // declarando uma relação de variaveis Elas iniciam sem valor atribuido, portanto são consideradas indefinidas (undefined)
+        let teste1, teste2, teste3
+
+        console.log(teste1);
+
+        /* atribuindo valores às variáveis */
+        teste1 = "exemplo 1";
+
+        console.log(teste1);
+
+        // trabalhando com valores numericos 
+        let valor1 = 10; /* inteiros */
+        let valor2 = 5; /* inteiros */
+        let valor3 = 1200.55; /* decimal, "quebrado" */
+
+        /* operação básica */
+        let soma = valor1 + valor2;
+        let subtracao = valor1 - valor2;
+        let multiplicacao = valor1 * valor2;
+        let divisao = valor1 / valor2;
+
+        /* Exemplo de uso de função matemática */
+        let resultado = Math.sqrt(soma);
+        console.log(resultado);
+
+
+        console.log("Soma: "+soma); /* Soma: 15 */
+        console.log("Subtração: "+subtracao); 
+        console.log("Multiplicação: "+multiplicacao);
+        console.log("Divisão: "+divisao);
+
+
+        // Saída de dados personalizada
+        // Frase para o exemplo :
+
+        /* Olá! me chamo Ygor e não vejo a hora de acabar o ano de 2024. */
+
+        // Forma 1: CONCATENÇÃO (tradicinal, antiga)
+        console.log("Olá Me chamo " + aluno + " e não vejo a hora de acabar o ano de " + ano + ".");
+
+
+
+        // Forma 2: TEMPLATE LITERAL/STRING (moderna)
+    console.log(`Olá Me chamo ${aluno} e não vejo a hora de acabar o ano se ${ano}.` );
+        
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
