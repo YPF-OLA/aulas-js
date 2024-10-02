@@ -60,6 +60,8 @@ const aluno = {
         bairro: "Parque Boturussu"
     }    
 }
+// kbuyf7fyuvuc yivi8g0hbug
+
 
 
 console.log(aluno.nome);
