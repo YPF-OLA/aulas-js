@@ -37,3 +37,11 @@ Arrays são estruturas de dados **indexados**, também conhecidos como **vetores
 Na prática, um array é uma lista de dados sequenciados, e cada dado é armazenadoem uma posição/indice do array. 
 
 **Obs.:** a contagem de elementos do array **sempre inicia em zero**.
+
+---
+
+## Sobre Objeto
+
+Objetos também são estruturas de dados só que **não-indexados**, ou seja, o acesso aos dados são feito de forma diferente do que vimos nos arrays. No objeto, acessamos através de **propriedades** e **valores** declarados dentro do objeto. 
+
+Normalmente, o objet
