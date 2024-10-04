@@ -61,4 +61,12 @@ Ao trabalhar com condicionais, é comum utilizar operações relacionais para co
 - Maior que  > 
 - Menor que  <
 - Maior ou igual  >=
-- Menor ou igual  
+- Menor ou igual  <=
+
+---
+
+## Sobre comandos de repetição 
+
+São estruturas/comandos que permitem a  execução repetidas vezes de uma ou mais ações/comandos/operações. Também conhecida como **loops** ou **laços de reptição**
+
+A quantidade vezes 
