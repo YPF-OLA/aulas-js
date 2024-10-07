@@ -80,14 +80,27 @@ console.log("/n---");
 // - Cliente: Shiryu, id:3
 
 
-let cliente = [
-    {nome1: "Felipe"},
-    {nome2: "Dani"},
-    {nome3: "Ygor"},
+let clientes = [
+       {
+        nome: "Ygor",
+        id: 1
+       },
+       {
+        nome: "Dani",
+        id: 2
+       },
+       {
+        nome: "Felipe",
+        id: 3
+       },
+];
 
+//
+for(const cliente of clientes){
+    console.log(`- Cliente: ${cliente.nome}, id: ${cliente.id}`);
     
-]
+}
 
-// for(){
 
-// }
+ 
+ 
